@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_inputs_text</title>
+</head>
+
+<body>
+    <!-- 로그인 환경 만들기 -->
+    <!-- - refer : https://mdbootstrap.com/docs/standard/extended/login/
+- Sign in클릭 -> welcome.html url : ...?password=1234&emailAddress=otter@yojulab.com -->
+
+    <div>
+        <h1>Typical sign in</h1>
+    </div>
+    <form action="../HTMLs/welcome.html" method="get">
+
+        <div>Password <input type="text" name="Password" id=""></div>
+
+        <div>Emailaddress <input type="text" name="emailAddress" id=""></div>
+
+
+
+        <div><button>Sign in</button></div>
+
+    </form>
+
+
+
+    <hr>
+<!-- table로 정렬 -->
+<div>
+    <h1>Typical sign in_table로 정렬</h1>
+</div>
+
+
+
+<form action="../HTMLs/welcome.html" method="get">
+<table>
+    <tr>
+        <td> Password </td>
+        <td><input type="text" name="password" id=""></td>
+    </tr> 
+<tr> 
+    <td>Email-address</td>
+    <td><input type="text" name="emailAddress" id=""></td>
+</tr>
+<tr>
+    
+</tr>
+<tr>
+    <td>
+        <button>Sign in</button></tr>
+    </td>
+</table>
+</form>
+</body>
+
+</html>

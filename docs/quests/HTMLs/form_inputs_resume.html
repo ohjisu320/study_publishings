@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_inputs_resume</title>
+</head>
+
+<body>
+    <main>
+        <table border="1" width="100">
+            <tr>
+                <td>
+                    <div></div>
+                    <h1>프런트엔드 개발자 지원서</h1>
+                    <div>
+                        HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다.
+                    </div>
+                    <hr>
+                    <form action="../../main.html" method="get">
+                        <div>
+                            <h3>개인정보</h3>
+                        </div>
+                        이름 <input type="text" name="name" id="">
+                        연락처 <input type="text" name="phonenumber" id="">
+
+                        <div>
+                            <h3>지원분야</h3>
+                        </div>
+                        <div>
+                            <input type="radio" name="hope_field" value="web_publishing" id="hope_publishing">
+                            <label for="hope_publishing">웹 퍼블리싱</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="hope_field" value="web_application" id="hope_application">
+                            <label for="hope_application">웹 애플리케이션 개발</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="hope_field" value="web_environment" id="hope_environment">
+                            <label for="hope_environment">개발 환경 개선</label>
+                        </div>
+                        <div>
+                            <h3>지원동기</h3>
+                        </div>
+                        <div><textarea name="hope_write" id="" cols="80" rows="10"></textarea></div>
+
+                        <button type="submit">접수하기</button>
+                        <button type="reset">다시 쓰기</button>
+
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+</body>
+
+</html>
