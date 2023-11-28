@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,216 +8,232 @@
     <style>
         body {
             background-color: antiquewhite;
-            
+            align-items: center;
         }
-        main>* {
-            
-            
+        main {
+            align-items: center;
+            padding: 50px;
         }
-
-        h1, table {
-            font-family:Arial, Helvetica, sans-serif;
-            
-        }
-
         h1 {
-            background-color:rgb(224, 120, 51);
+            background-color: rgb(224, 120, 51);
             text-align: center;
             vertical-align: middle;
             width: 100%;
             height: 90px;
-            color:khaki;
+            color: khaki;
             font-family: 'Times New Roman', Times, serif;
-            
-            
+        }
+        div.content {
+            font-family: Arial, Helvetica, sans-serif;
+            margin:auto
         }
         table {
             border: 1px solid black;
+            align-content: center;
+            border-collapse: collapse;
+            width: 800px;
         }
-
-
-
+        th {
+            background-color: burlywood;
+        }
+        .category {
+            text-align: center;
+            font-weight: 300;
+            background-color:rgb(252, 222, 193);
+        }
     </style>
 </head>
+
 <body>
     <main>
-    <h1>
-        <span style='font-size:50px;'>&#128005;</span>
-        JISU's study
-        <span style='font-size:50px;'>&#128005;</span></h1>
-    <h2>[Web]</h2>
-    <h2>1. HTML</h2>
-    <table border="1">
-        <tr>
-            <th>구분</th>
-            <th width="400">내용</th>
-            <th>링크</th>
-        </tr>
-        <tr>
-            <td rowspan="2">Basic</td>
-            <td>구조 학습</td>
-            <td>
-               <a href="./temp.htm">temp.htm</a></td>
-            </tr>
-        <tr>
-        
-            <td>구조학습 및 assistant 활용</td>
-            <td>
-                <a href="./HTMLs/welcome.html">welcome.html</a>
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="2">Tables</td>
-            <td>표 만들기</td>
-            <td>
-                <a href="./HTMLs/tables.html">table.html</a>
-            </td>
-        </tr>
-        <tr>
-         
-            <td>quest_resume</td>
-            <td>
-                <a href="./quests/HTMLs/resume.html">resume.html</a>
-            </td>
-        </tr>
-        <tr>
-            <td>Links</td>
-            <td>상대경로/절대경로/a tag/form tag</td>
-            <td>
-                <a href="./HTMLs/links.html">links.html</a>
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="2">Images</td>
-            <td>이미지 삽입</td>
-            <td>
-                <a href="./HTMLs/images.html">images.html</a>
-            </td>
-        </tr>
-        <tr>
+        <h1>
+            <span style='font-size:50px;'>&#128005;</span>
+            JISU's study
+            <span style='font-size:50px;'>&#128005;</span>
+        </h1>
 
-            <td>이미지 삽입 with width</td>
-            <td>
-                <a href="../docs/quests/HTMLs/images.html">images.html</a>
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="2">Lists</td>
-            <td>리스트_ol/ul</td>
-            <td>
-                <a href="./HTMLs/lists.html">lists.html</a>
-            </td>
-        </tr>
-        <tr>
-            <td>리스트/div 응용</td>
-            <td>
-                <a href="./quests/HTMLs/basic_divs.html">Basic_divs.html</a>
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="5">Forms and Input</td>
-            <td>사이트 간 정보전달/form tag//button:..., input:radio, textarea</td>
-            <td>
-                <a href="./quests/HTMLs/basic_divs.html">Basic_divs.html</a>
-            </td>
-        </tr>
-        <tr>
-         
-            <td>사이트 간 정보전달 응용-Typical sign in </td>
-            <td>
-                <a href="./quests/HTMLs/form_inputs_text.html">form_inputs_text.html</a>
-            </td>
-        </tr>
-        <tr>
+        <div class="content">
+            <h2>[Web]</h2>
+            <h2>1. HTML</h2>
+            <table border="1">
+                <tr>
+                    <th>구분</th>
+                    <th width="400">내용</th>
+                    <th>링크</th>
+                </tr>
+                <tr>
+                    <td class="category" rowspan="2">Basic</td>
+                    <td>구조 학습</td>
+                    <td>
+                        <a href="./temp.htm">temp.htm</a>
+                    </td>
+                </tr>
+                <tr>
 
-            <td>사이트 간 정보전달 응용-quest_resume </td>
-            <td>
-                <a href="./quests/HTMLs/form_inputs_resume.html">form_inputs_resume.html</a>
-            </td>
-        </tr>
-        <tr>
+                    <td>구조학습 및 assistant 활용</td>
+                    <td>
+                        <a href="./HTMLs/welcome.html">welcome.html</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="category" rowspan="2">Tables</td>
+                    <td>표 만들기</td>
+                    <td>
+                        <a href="./HTMLs/tables.html">table.html</a>
+                    </td>
+                </tr>
+                <tr>
 
+                    <td>quest_resume</td>
+                    <td>
+                        <a href="./quests/HTMLs/resume.html">resume.html</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="category" >Links</td>
+                    <td>상대경로/절대경로/a tag/form tag</td>
+                    <td>
+                        <a href="./HTMLs/links.html">links.html</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="category" rowspan="2">Images</td>
+                    <td>이미지 삽입</td>
+                    <td>
+                        <a href="./HTMLs/images.html">images.html</a>
+                    </td>
+                </tr>
+                <tr>
 
-            <td> select tag</td>
-            <td>
-    
-                <a href="./HTMLs/form_selects.html">form_selects.html</a>
-            </td>
-        </tr>
-        <tr>
+                    <td>이미지 삽입 with width</td>
+                    <td>
+                        <a href="../docs/quests/HTMLs/images.html">images.html</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="category" rowspan="2">Lists</td>
+                    <td>리스트_ol/ul</td>
+                    <td>
+                        <a href="./HTMLs/lists.html">lists.html</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>리스트/div 응용</td>
+                    <td>
+                        <a href="./quests/HTMLs/basic_divs.html">Basic_divs.html</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="category" rowspan="5">Forms and Input</td>
+                    <td>사이트 간 정보전달/form tag//button:..., input:radio, textarea</td>
+                    <td>
+                        <a href="./quests/HTMLs/basic_divs.html">Basic_divs.html</a>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>사이트 간 정보전달 응용-Typical sign in </td>
+                    <td>
+                        <a href="./quests/HTMLs/form_inputs_text.html">form_inputs_text.html</a>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>사이트 간 정보전달 응용-quest_resume </td>
+                    <td>
+                        <a href="./quests/HTMLs/form_inputs_resume.html">form_inputs_resume.html</a>
+                    </td>
+                </tr>
+                <tr>
 
 
-            <td> input types</td>
-            <td>
-    
-                <a href="./HTMLs/form_input_types.html">form_input_types.html</a>
-            </td>
-        </tr>
-        
-    </table>
-    <h2>2. CSS</h2>
-    <table border="1">
-        <tr>
-            <th>구분</th>
-            <th width="400">내용</th>
-            <th>링크</th>
-        </tr>
-        <tr>
-            <td rowspan="2">Selector types</td>
-            <td> css 기초 </td>
-            <td>
-                <a href="./CSSs/welcome.html">welcome.html</a>
-            </td>
-        </tr>
-        <tr>
-            
-            <td> Selector types, 적용방법 </td>
-            <td>
-                <a href="./CSSs/selectors_tag.html">selectors_tag.html</a>
-            </td>
-        </tr>
-        <tr>
-            <td>Color Codes types</td>
-            <td> Color </td>
-            <td>
-                <a href="./CSSs/colors.html">colors.html</a>
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="2">CSS Font</td>
-            <td> texts에 컬러 및 기능 적용 </td>
-            <td>
-                <a href="./CSSs/texts.html">texts.html</a>
-            </td>
-        </tr>
-        <tr>
-            
-            <td> *quest - texts에 컬러 및 기능 적용 </td>
-            <td>
-                <a href="./quests/CSSs/text_color.html">text_color.html</a>
-            </td>
-        </tr>
+                    <td> select tag</td>
+                    <td>
 
-        <tr>
-            <td rowspan="2">Box model</td>
-            <td> Borders 심화 </td>
-            <td>
-                <a href="./CSSs/borders.html">borders.html.html</a>
-            </td>
-        </tr>
-        <tr>
-            
-            <td> *quest - Borders에 컬러 및 기능 적용 </td>
-            <td>
-                <a href="./quests/CSSs/borders.html">borders.html</a>
-            </td>
-        </tr>
-    </table>
+                        <a href="./HTMLs/form_selects.html">form_selects.html</a>
+                    </td>
+                </tr>
+                <tr>
 
-</table>
 
-</main>
+                    <td> input types</td>
+                    <td>
+
+                        <a href="./HTMLs/form_input_types.html">form_input_types.html</a>
+                    </td>
+                </tr>
+
+            </table>
+            <h2>2. CSS</h2>
+            <table border="1">
+                <tr>
+                    <th>구분</th>
+                    <th width="400">내용</th>
+                    <th>링크</th>
+                </tr>
+                <tr>
+                    <td class="category" rowspan="2">Selector types</td>
+                    <td> css 기초 </td>
+                    <td>
+                        <a href="./CSSs/welcome.html">welcome.html</a>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td> Selector types, 적용방법 </td>
+                    <td>
+                        <a href="./CSSs/selectors_tag.html">selectors_tag.html</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="category">Color Codes types</td>
+                    <td> Color </td>
+                    <td>
+                        <a href="./CSSs/colors.html">colors.html</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="category" rowspan="2">CSS Font</td>
+                    <td> texts에 컬러 및 기능 적용 </td>
+                    <td>
+                        <a href="./CSSs/texts.html">texts.html</a>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td> *quest - texts에 컬러 및 기능 적용 </td>
+                    <td>
+                        <a href="./quests/CSSs/text_color.html">text_color.html</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="category" rowspan="3">Box model</td>
+                    <td> Borders 심화 </td>
+                    <td>
+                        <a href="./CSSs/borders.html">borders.html.html</a>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td> *quest - Borders에 컬러 및 기능 적용 </td>
+                    <td>
+                        <a href="./quests/CSSs/borders.html">borders.html</a>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td> *quest - resume에 다양한 기능 적용 </td>
+                    <td>
+                        <a href="./quests/CSSs/resume.html">resume.html</a>
+                    </td>
+                </tr>
+            </table>
+
+            </table>
+        </div>
+
+    </main>
 </body>
-</html>
-    
 
+</html>
