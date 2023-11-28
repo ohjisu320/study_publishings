@@ -3,22 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Borders</title>
     <style>
         * {
             margin-top: 10px;
         }
-        div  {
+
+        /* * div {} 전체 div로 지정 */
+        div.dotted  {
             border-style: dotted;
+            border-width: 4px;
+            /* color */
+            border-color: blue;
         }
         
-        .solid { /* class name으로 지정 */
+        div.solid { /* class name으로 지정 */
             border-style: solid;
+
+            /* 시계방향으로 5px 씩 늘어나게 */
+            border-top-width: 5px;
+            border-right-width: 10px;
+            border-bottom-width: 15px;
+            border-left-width: 20px;
+
+            /* 한 쪽에만 color */
+            border-left-color: blueviolet;
+            border-bottom-color: chocolate;
         }
 
-       
-        div .double {   /* seletor(tag) .class 활용 */
-            border-style: double
+        .double {   /* seletor(tag).class 활용 */
+            /* border-style:double;*/
+            
+            /* <shorthand: top right bottom left> */
+            /*border-width: 5px 10px 15px 20px;*/
+
+            /* 2 항목만 쓰면 top-bottom right-left 순 */
+            /* border-width: 5px 15px */
+
+            /* 선을 없애고 싶을 땐 0px */
+            /* border-width: 5px 0px 15px 0px; */
+
+            /* shorthand : width style color */
+            border:3px double red;
+
+            /* 전체 round 주기 */
+            /* border-radius:10px */
+            
+            /* top right bottom left 순으로 round  주기 */
+            /* border-radius: 3px 6px 9px 12px; */
+
+            /* 쌍으로 round 주기 */
+            border-radius: 5px 10px;
+            
+
         }
 
     </style>
@@ -29,6 +66,7 @@
         <div class="dotted">A dotted border.</div>
         <div class="solid">A solid border.</div>
         <div class="double">A double border.</div>
+        <div></div>
         <hr>
     </main>
 </body>
