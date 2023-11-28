@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
-            border
+        * {
+            margin-top: 10px;
+        }
+        div  {
+            border-style: dotted;
+        }
+        
+        .solid { /* class name으로 지정 */
+            border-style: solid;
+        }
+
+       
+        div .double {   /* seletor(tag) .class 활용 */
+            border-style: double
         }
 
     </style>
@@ -14,9 +26,9 @@
 <body>
     <main>
         <h1>border style</h1>
-        <div>A dotted border.</div>
-        <div>A solid border.</div>
-        <div>A double border.</div>
+        <div class="dotted">A dotted border.</div>
+        <div class="solid">A solid border.</div>
+        <div class="double">A double border.</div>
         <hr>
     </main>
 </body>
