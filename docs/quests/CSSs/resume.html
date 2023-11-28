@@ -12,38 +12,57 @@
             width: 500px;
             margin: 50px;
             padding: 50px;
-            
+
         }
+
         .title {
             font-size: 15px;
             text-align: center;
         }
+
         div {
-            font-size: 10px;
+            font-size: 15px;
         }
-    
+
         table {
             width: 500px;
             font-weight: 600;
-        }
+            border-collapse: collapse;
+                }
+
         tr {
             height: 20px;
         }
-        td {
+
+        td,
+        th {
             width: 100px;
+            border: 1px solid black;
         }
-        div.sign-context, .sign-date, .sign-sign {
+
+        div.sign>* {
             margin-top: 30px;
+
         }
+
         div.sign-context,
         .sign-date {
             text-align: center;
         }
+
         div.sign-sign {
             text-align: right;
         }
+
         div.small-title {
             font-size: 10px;
+        }
+
+        th {
+            background-color: rgb(231, 231, 231);
+        }
+        div.middle {
+            border: 1px solid black
         }
     </style>
 </head>
@@ -53,156 +72,164 @@
         <div class="title">
             <h1>이 력 서</h1>
         </div>
-        <div></div>
-        <!-- 1. 인적사항 -->
-        <div class="middle">
-            <div class="small-title">
-                <h1>1.인적사항</h1>
-            </div>
-            <table class="first" border="1">
-                <tr>
-                    <td rowspan="4"> </td>
-                    <td>성명</td>
-                    <td colspan="2"> </td>
-                    <td>생년월일</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td rowspan="2">연락처</td>
-                    <td> 자택 </td>
-                    <td> </td>
-                    <td rowspan="2">e-mail</td>
-                    <td rowspan="2"></td>
-                </tr>
-                <tr>
-                    <td>핸드폰</td>
-                    <td> </td>
-                </tr>
-                <tr>
-                    <td>주소</td>
-                    <td colspan="4"></td>
-                </tr>
-            </table>
-            <!-- 2.학력사항 -->
-            <div class="small-title">
-                <h1>2.학력사항</h1>
-            </div>
-            <table border="1">
-                <tr>
-                    <th>기간</th>
-                    <th>학교명</th>
-                    <th>전공</th>
-                    <th>졸업구분</th>
-                    <th>소재지</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-            <div></div>
-            <!--3.경력사항  -->
-            <div class="small-title">
-                <h1>3.경력사항</h1>
-            </div>
-            <table border="1">
-                <tr>
-                    <th>근무기간</th>
-                    <th>직장명</th>
-                    <th>담당업무</th>
-                    <th>직위</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
 
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+            <!-- 1. 인적사항 -->
+           
+                <div class="small-title">
+                    <h1>1.인적사항</h1>
+                </div>
+                
+                <table class="first" >
+                    <tr>
+                        <td rowspan="4"> <img width="100%"
+                                src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA2MDhfMTU4%2FMDAxNTkxNjA0MDY4OTky.C3nRACHMj4le7ZS0YfCJ4sLQi8aQtEgILb5AvpWhKYgg.h4nih64bkKu9m6S1lRW7meXyPxocFSlUzu7s4WgoNuMg.JPEG.springkim_92%2F%25BC%25D2%25C7%25B013.JPEG&type=sc960_832"
+                                alt="증명사진"> </th>
+                        <th>성명</td>
+                        <td colspan="2"> </td>
+                        <th>생년월일</th>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">연락처</th>
+                        <td style="width: 60px;"> 자택 </td>
+                        <td> </td>
+                        <th rowspan="2">e-mail</th>
+                        <td rowspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 40px;">핸드폰</td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <th>주소</th>
+                        <td colspan="4"></td>
+                    </tr>
+                </table>
+        
+                <!-- 2.학력사항 -->
+                <div class="small-title">
+                    <h1>2.학력사항</h1>
+                </div>
+                
+                <table >
+                    <tr>
+                        <th>기간</th>
+                        <th>학교명</th>
+                        <th>전공</th>
+                        <th>졸업구분</th>
+                        <th>소재지</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+              
+                <!--3.경력사항  -->
+                <div class="small-title">
+                    <h1>3.경력사항</h1>
+                </div>
+                <table >
+                    <tr>
+                        <th>근무기간</th>
+                        <th>직장명</th>
+                        <th>담당업무</th>
+                        <th>직위</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
 
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
 
-                </tr>
-            </table>
-            <!-- 4.자격사항 및 OA 활용능력 -->
-            <div class="small-title">
-                <h1>4.자격사항 및 OA 활용능력</h1>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                </table>
+                <!-- 4.자격사항 및 OA 활용능력 -->
+                <div class="small-title">
+                    <h1>4.자격사항 및 OA 활용능력</h1>
+                </div>
+                <table >
+                    <tr>
+                        <th>취득일</th>
+                        <th>자격증명(등급)</th>
+                        <th>발급기관</th>
+                        <th rowspan="4" style="width: 40px;">OA활용능력</th>
+                        <th>문서작성</th>
+                        <th>엑셀</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <th>파워포인트</th>
+                        <th>전산회계</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <!-- 5.교육사항 -->
+                <div class="small-title">
+                    <h1>5.교육사항</h1>
+                </div>
+                <table >
+                    <tr>
+                        <th>교육기간</th>
+                        <th>교육명</th>
+                        <th>교육내용</th>
+                        <th>교육기관</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <div class="sign">
+
+                    <div class="sign-context">위의 사실이 틀림없음을 서약합니다.</div>
+
+                    <div class="sign-date"> 년 월 일</div>
+                    <div></div>
+                    <div class="sign-sign">작성자 (인)</div>
+                </div>
             </div>
-            <table border="1">
-                <tr>
-                    <th>취득일</th>
-                    <th>자격증명(등급)</th>
-                    <th>발급기관</th>
-                    <th rowspan="4" style="width: 30px;">OA활용능력</th>
-                    <th>문서작성</th>
-                    <th>엑셀</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <th>파워포인트</th>
-                    <th>전산회계</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-            <!-- 5.교육사항 -->
-            <div class="small-title">
-                <h1>5.교육사항</h1>
-            </div>
-            <table border="1">
-                <tr>
-                    <th>교육기간</th>
-                    <th>교육명</th>
-                    <th>교육내용</th>
-                    <th>교육기관</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
 
-            <div class="sign-context">위의 사실이 틀림없음을 서약합니다.</div>
-
-            <div class="sign-date"> 년 월 일</div>
-            <div></div>
-            <div class="sign-sign">작성자 (인)</div>
-        </div>
     </main>
 
 </body>
