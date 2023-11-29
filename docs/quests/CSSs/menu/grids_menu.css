@@ -10,15 +10,15 @@
     text-align: center;
 }
 .nav-item:hover{
-    background-color:blueviolet;
+    background-color: rgb(253, 253, 253);
     width: 80px;
     text-align: center;
 }
-a {
+li>a {
     text-decoration: none;
     color: white;
 
 }
-a:hover {
+li>a:hover {
     color: rgb(0, 0, 0);
   }
