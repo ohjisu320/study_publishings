@@ -10,7 +10,7 @@
     text-align: center;
 }
 .nav-item:hover{
-    background-color: rgb(253, 253, 253);
+    background-color: blueviolet;
     width: 80px;
     text-align: center;
 }
