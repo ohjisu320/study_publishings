@@ -1,0 +1,16 @@
+.grid-container {
+    /* grid 형식으로 바꾸기 */
+    display: grid;
+    /* column의 개수로 맞추기 with auto-배치 바꾸기  */
+    /* --> grid-template-columns: auto auto auto;*/
+    /* column의 개수로 맞추기-지정한 너비 만큼 표시 */
+    /* --> grid-template-columns: 100px auto auto; */
+    /* column의 개수로 맞추기 with % -배치 바꾸기  */
+    grid-template-columns: 20% 50% 30%;
+    /* column끼리 띄우기 */
+    gap: 10px;
+    }
+.grid-item-second-main {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
