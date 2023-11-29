@@ -2,5 +2,7 @@
 body {
     background-color: antiquewhite;
     display: grid;
-    margin: 5px 10%
+    grid-template-columns: auto;
+    justify-content: center;
+    
 }
