@@ -10,5 +10,7 @@
 /* 언더바 없애기 */
 a {
     text-decoration:none ;
-    
+
 }
+/* grid로 배치할 것.
+배치 방법은 여러가지 float - flex - grid */
