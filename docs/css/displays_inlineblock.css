@@ -1,0 +1,9 @@
+/* <!-- 점 없애기 > 가로나열 > 색깔 변경 > padding 적용  --!> */
+.nav {
+    list-style-type: none;
+    background-color: yellowgreen;
+}
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    }
