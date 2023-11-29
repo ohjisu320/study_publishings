@@ -1,0 +1,16 @@
+/* <!-- 점 없애기 > 가로나열 > 색깔 변경 > padding 적용  --!> */
+.nav {
+    list-style-type: none;
+    background-color: yellowgreen;
+}
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    }
+/* 언더바 없애기 */
+a {
+    text-decoration:none ;
+
+}
+/* grid로 배치할 것.
+배치 방법은 여러가지 float - flex - grid */
