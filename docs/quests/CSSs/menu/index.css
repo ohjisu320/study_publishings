@@ -2,32 +2,7 @@
         body {
             background-color: antiquewhite;
         }
-        .nav {
-            list-style: none;
-            display:grid;
-            grid-template-columns: auto auto auto auto;
-            justify-content: space-around    
-        }
-        .nav > .nav-item {
-            padding: 5px;
-            background-color: chocolate;
-            text-align: center;
-        }
-        .nav-item:hover{
-            background-color: rgb(253, 253, 253);
-            width: 80px;
-            text-align: center;
-        }
-        a {
-            text-decoration: none;
-            color: white;
         
-        }
-        a:hover {
-            color: rgb(0, 0, 0);
-          }
-        
-
         .container {
             margin: 5px 10%
         }
