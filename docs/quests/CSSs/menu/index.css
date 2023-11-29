@@ -1,12 +1,5 @@
 
-        body {
-            background-color: antiquewhite;
-        }
-        
-        .container {
-            display: grid;
-            margin: 5px 10%
-        }
+
 
         h1 {
             background-color: rgb(223, 161, 120);
@@ -47,4 +40,15 @@
             font-weight: 300;
             background-color: rgb(252, 222, 193);
         }
+        td > a {
+            text-decoration: none;
+            color: black;
+        }
+        td > a:active{
+            color: brown;
+        }
+        td > a:hover {
+            color: brown;
+        }
+
 
