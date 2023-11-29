@@ -4,6 +4,7 @@
         }
         
         .container {
+            display: grid;
             margin: 5px 10%
         }
 
