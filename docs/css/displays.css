@@ -1,0 +1,41 @@
+ /* display로 라인 나누기 */
+ .span_first {
+    display: block;
+}
+
+.div_first {
+    display: inline;
+}
+/* hr 아래 */
+
+span.a {
+    display: inline;
+    /* the default for span */
+    /* inline으로 설정할 경우, width/height는 작동하지 않음 */
+    /* bec. width/height가 내용물에 종속 */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+span.b {
+    /* inline_block은 해당하는 컨텐츠에 종속적으로 width/height 작동 */
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+
+span.c {
+    /* 한 칸을 차지하면서 width/height가 컨텐츠에 종속적으로 작동 */
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
