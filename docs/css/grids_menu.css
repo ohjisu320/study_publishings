@@ -1,0 +1,24 @@
+.nav {
+    list-style: none;
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: space-around;    
+    background-color:darkgray ;
+}
+.nav > .nav-item {
+    padding: 5px;
+    background-color: chocolate;
+    text-align: center;
+}
+.nav-item:hover{
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+}
+li>a {
+    text-decoration: none;
+    color: white;
+
+}
+li>a:hover {
+    color: rgb(0, 0, 0);
+  }

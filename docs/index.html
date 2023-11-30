@@ -1,58 +1,29 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
-    <style>
-        body {
-            background-color: antiquewhite;
-            align-items: center;
-        }
-        main {
-            align-items: center;
-            width: auto;
-            padding: 50px;
-        }
-        h1 {
-            background-color: rgb(224, 120, 51);
-            text-align: center;
-            vertical-align: middle;
-            width: 100%;
-            height: 90px;
-            color: khaki;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        div.content {
-            font-family: Arial, Helvetica, sans-serif;
-            margin:auto
-        }
-        table {
-            border: 1px solid black;
-            align-content: center;
-            border-collapse: collapse;
-            width: 800px;
-        }
-        th {
-            background-color: burlywood;
-        }
-        tr {
-            height: 30px; 
-        }
-        td {
-            padding-left: 15px;
-        }
-        .category {
-            text-align: center;
-            font-weight: 300;
-            background-color:rgb(252, 222, 193);
-        }
-    </style>
-    </head>
+    <title>index</title>
+    <link rel="stylesheet" href="./quests/CSSs/menu/grids_menu.css">
+    <link rel="stylesheet" href="./quests/CSSs/menu/index.css">
+    <link rel="stylesheet" href="./quests/CSSs/menu/common.css">
+</head>
 
-    <body>
-    <main>
+<body>
+    <nav>
+        <ul class="nav">
+            <!-- 정보를 사용하지 않는 링크 기능은 a tag 활용 -->
+            <li class="nav-item"><a href="./index.html">Home</a></li>
+            <li class="nav-item"><a
+                    href="https://ohjisu320.github.io/study_publishings/quests/CSSs/menu/borders.html">Border</a></li>
+            <li class="nav-item"><a
+                    href="https://ohjisu320.github.io/study_publishings/quests/CSSs/menu/colors.html">Color</a></li>
+            <li class="nav-item"><a
+                    href="https://ohjisu320.github.io/study_publishings/quests/CSSs/menu/texts.html">Text</a></li>
+        </ul>
+    </nav>
+    <main class="container">
         <h1>
             <span style='font-size:50px;'>&#128005;</span>
             JISU's study
@@ -97,7 +68,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="category" >Links</td>
+                    <td class="category">Links</td>
                     <td>상대경로/절대경로/a tag/form tag</td>
                     <td>
                         <a href="./HTMLs/links.html">links.html</a>
@@ -234,88 +205,62 @@
                     <td>
                         <div><a href="./quests/CSSs/resume.html">resume.html</a></div>
                         <div><a href="./quests/css/resume.css">resume.css</a></div>
-                        
+
                     </td>
                 </tr>
                 <!-- 반영하기 -->
                 <tr>
-                    <td> Selectors </td>
+                    <td class="category" rowspan="3"> Selectors </td>
 
                     <td> Selectors_tags </td>
                     <td>
                         <div><a href="./CSSs/selectors_tag.html">selectors_tag.html</a></div>
-                        <
-                        
                     </td>
                 </tr>
                 <tr>
-                    <td> Selectors </td>
+
 
                     <td> selectors_pseudo </td>
                     <td>
-                        <div><a href="./quests/CSSs/resume.html">resume.html</a></div>
-                        div><a href="./css/selectors_pseudo.css">resume.css</a></div>
-                        
+                        <div><a href="./CSSs/selectors_pseudo.html">selectors_pseudo.html</a></div>
+                        <div><a href="./css/selectors_pseudo.css">selectors_pseudo.css</a>
+                        </div>
+
                     </td>
                 </tr>
                 <tr>
-                    <th> Selectors </th>
+
 
                     <td> Selectors_combinators </td>
                     <td>
-                        <div><a href="./quests/CSSs/resume.html">resume.html</a></div>
-                        <div><a href="./quests/css/resume.css">resume.css</a></div>
-                        
+                        <div><a href="./CSSs/selectors_combinators.html">selectors_pseudo.html</a></div>
+                        <div><a href="./css/selectors_combinators.css">selectors_pseudo.css</a>
+
                     </td>
                 </tr>
                 <tr>
-                    <th> Displays </th>
+                    <td class="category" rowspan="2"> Displays </td>
 
                     <td> Displays </td>
                     <td>
                         <div><a href="./CSSs/displays.html">displays.html</a></div>
                         <div><a href="./css/commons.css">commons.css</a></div>
                         <div><a href="./css/displays.css">displays.css</a></div>
-                        
+
                     </td>
                 </tr>
                 <tr>
-                    <th> Displays </th>
-
                     <td> displays_inlineblock-Navigations </td>
                     <td>
                         <div><a href="./CSSs/displays_inlineblock.html">displays_inlineblock.html</a></div>
-                        <div><a href="./css/displays_inlineblock.css">resume.css</a></div>
-                        
+                        <div><a href="./css/displays_inlineblock.css">displays_inlineblock.css</a></div>
+
                     </td>
                 </tr>
                 <tr>
-                    <th> Grids </th>
+                    <td class="category" rowspan="3"> Grids </td>
 
                     <td> Grids - 메뉴 등 레이아웃 만들기(재배치) </td>
                     <td>
                         <div><a href="./CSSs/grids.html">grids.html</a></div>
                         <div><a href="./css/grids.css">grids.css</a></div>
-                        
-                    </td>
-                </tr>
-                <tr>
-                    <th> Font </th>
-
-                    <td> icon 넣기 </td>
-                    <td>
-                        <div><a href="./CSSs/font_icons.html">font_icons.html</a></div>
-                        <div><a href="./css/grids.css">grids.css</a></div>
-                        
-                    </td>
-                </tr>
-
-            </table>
-
-            </table>
-        </div>
-
-    </main>
-    </body>
-
-    </html>

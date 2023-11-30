@@ -7,10 +7,24 @@
     /* --> grid-template-columns: 100px auto auto; */
     /* column의 개수로 맞추기 with % -배치 바꾸기  */
     grid-template-columns: 20% 50% 30%;
+    /* grid-template-columns: 40px 50px 60px; --with 지정값 */
     /* column끼리 띄우기 */
     gap: 10px;
     }
 .grid-item-second-main {
         display: grid;
         grid-template-columns: auto auto auto;
+
     }
+.grid-container-justify {
+    display: grid;
+    grid-template-columns: 40px 50px 60px; 
+    gap: 10px;
+    /* 배열하기
+    justify-content: center; start; end; */
+    /* justify-content: space-around; --적절히 배분 */
+    /* justify-content: space-between; --양끝만 붙기 */
+    justify-content: space-between;
+
+}
+

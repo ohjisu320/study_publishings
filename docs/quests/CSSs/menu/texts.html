@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <!-- tag 자체에 주지 않고 하나하나 부여하는 방법 << 권장 -->
+    <style>
+        /* 내가 원하는 태그(selector)에 너비 높이 조절 가능 */
+        body {
+            background-color:darkolivegreen;
+        }
+        main {
+            border-style: dotted;
+            height:350px;
+            width:500px;
+            background-color: burlywood;
+        }
+        h1 {
+            /* 배치를 바꾸는 방법 1) 태그 자체의 배치를 바꿈 2) 텍스트의 배치를 바꿈
+            -- 텍스트 안에 들어가 있는 span tag에는 가운데 정렬할 수 없음
+            -- 글이 싸고 있는 tag에는 정렬 불가능
+            -- 
+            */
+            color:darkgreen;
+            border-style: dotted;
+            text-align:center;
+            
+
+        }
+        div {
+            color:black;
+            /* cap */
+            text-indent: 40px;
+        }
+        span {
+            color:aquamarine;
+            border-style: dotted;
+        }
+    </style>
+    <link rel="stylesheet" href="./grids_menu.css">
+    <link rel="stylesheet" href="./common.css">
+    
+    
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <!-- 정보를 사용하지 않는 링크 기능은 a tag 활용 -->
+            <li class="nav-item"><a href="https://ohjisu320.github.io/study_publishings/index.html">Home</a></li>
+            <li class="nav-item"><a href="https://ohjisu320.github.io/study_publishings/quests/CSSs/menu/borders.html">Border</a></li>
+            <li class="nav-item"><a href="https://ohjisu320.github.io/study_publishings/quests/CSSs/menu/colors.html">Color</a></li>
+            <li class="nav-item"><a href="https://ohjisu320.github.io/study_publishings/quests/CSSs/menu/texts.html">Text</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- space로 띄어져 있는 단어들은 -으로 대체 -->
+        <h1>TEXT FORMATTING</h1>
+        <div>
+            <div>This text is styled with some of the text formatting properties.
+            The heading uses the text-align, text-transform, and color properties.</div> 
+            <div>The paragraph is indented, aligned, and the space between characters is specified.
+            The underline is removed from this colored <span> "Try it Yourself"</span> link.</div>
+        </div>
+    </main>
+</body>
+
+</html>
